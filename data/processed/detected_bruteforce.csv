@@ -1,0 +1,2 @@
+detection_rule,severity,user,source_ip,first_seen,evidence_count
+Brute Force + Successful Login,High,j.smith,185.10.50.21,2026-03-14 10:01:00,14
