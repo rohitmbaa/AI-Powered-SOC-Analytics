@@ -1,0 +1,8 @@
+alert_id,incident_id,timestamp,rule_id,detection_rule,severity,source,user,host,source_ip,status
+AL-001-01,INC-00421,2026-03-14 10:01:00,DET-001,Brute Force Authentication,High,Authentication,j.smith,WIN-024,185.10.50.21,Open
+AL-001-02,INC-00421,2026-03-14 10:01:00,DET-002,Suspicious PowerShell,High,Endpoint,j.smith,WIN-024,185.10.50.21,Open
+AL-001-03,INC-00421,2026-03-14 10:01:00,DET-005,Abnormal Outbound Transfer,High,Network,j.smith,WIN-024,185.10.50.21,Open
+AL-002-01,INC-00422,2026-04-02 07:30:00,DET-003,Impossible Travel,High,Authentication,a.kumar,WIN-011,185.10.60.22,Investigating
+AL-003-01,INC-00423,2026-05-18 15:10:00,DET-004,Potential Lateral Movement,High,Network,svc_app,WIN-017,10.10.0.77,Open
+AL-004-01,INC-00424,2026-06-06 22:20:00,DET-005,Abnormal Outbound Transfer,High,Network,r.verma,WIN-030,185.10.80.31,Open
+AL-005-01,INC-00425,2026-02-21 11:45:00,DET-006,Office-to-PowerShell Chain,Critical,Endpoint,m.sharma,WIN-008,10.10.0.88,Investigating

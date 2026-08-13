@@ -1,0 +1,6 @@
+incident_id,title,severity,user,host,source_ip,first_seen,status
+INC-00421,Brute Force + Suspicious PowerShell + Possible Exfiltration,Critical,j.smith,WIN-024,185.10.50.21,2026-03-14 10:01:00,Open
+INC-00422,Impossible Travel Authentication Pattern,High,a.kumar,WIN-011,185.10.60.22,2026-04-02 07:30:00,Investigating
+INC-00423,Potential SMB Lateral Movement,High,svc_app,WIN-017,10.10.0.77,2026-05-18 15:10:00,Open
+INC-00424,Abnormal Outbound Data Transfer,High,r.verma,WIN-030,185.10.80.31,2026-06-06 22:20:00,Open
+INC-00425,Office-to-PowerShell Process Chain,Critical,m.sharma,WIN-008,10.10.0.88,2026-02-21 11:45:00,Investigating

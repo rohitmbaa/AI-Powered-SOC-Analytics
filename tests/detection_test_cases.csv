@@ -1,0 +1,7 @@
+test_id,scenario,input_condition,expected_result,priority,edge_case
+TC01,9 failures + success within 5 min,9 failed attempts followed by success,No high-severity brute-force alert,High,Below threshold
+TC02,10 failures + success within 5 min,10 failed attempts followed by success,No high-severity brute-force alert,High,Exact threshold
+TC03,11 failures + success within 5 min,11 failed attempts followed by success,High-severity brute-force alert,Critical,Above threshold
+TC04,11 failures without success,"11 failures, no success",Monitor / no successful-login escalation,Medium,Context
+TC05,11 failures + success after 10 min,Failures followed by success outside window,No brute-force escalation from this rule,High,Time-window boundary
+TC06,Missing source IP,Source IP = NULL,Data-quality exception,High,Missing value
